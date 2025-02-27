@@ -9,7 +9,9 @@ app.use(express.json());
 const libros = [];
 
 
-
+app.get('/libros',(req,res)=>{
+    res.status(200).json({status: 200, message: 'Success', libros});
+});
 
 
 app.listen(PORT, ()=>{

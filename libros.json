@@ -1,9 +1,23 @@
 [
-    {
-      "id": 1,
-      "titulo": "",
-      "autor": "",
-      "anio": "",
-      "disponible":""
-    }
-  ]
+  {
+    "id": 1,
+    "titulo": "",
+    "autor": "",
+    "anio": "",
+    "disponible": ""
+  },
+  {
+    "id": 2,
+    "titulo": "El Principito",
+    "autor": "Antoine de Saint-Exupéry",
+    "anio": 1943,
+    "disponible": true
+  },
+  {
+    "id": 3,
+    "titulo": "El Gran Gatsby",
+    "autor": "F. Scott Fitzgerald",
+    "anio": 1925,
+    "disponible": true
+  }
+]

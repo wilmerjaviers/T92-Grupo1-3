@@ -1,1 +1,23 @@
-[{"id":1,"titulo":"A la caza de Jack el Destripador","autor":"Kerri Maniscalco","anio":"2016","disponible":"Si"},{"id":2,"titulo":"El hogar de Miss Peregrine para ñiños peculiares","autor":"Ransom Riggs","anio":"2011","disponible":"No"}]
+[
+  {
+    "id": 1,
+    "titulo": "",
+    "autor": "",
+    "anio": "",
+    "disponible": ""
+  },
+  {
+    "id": 2,
+    "titulo": "El Principito",
+    "autor": "Antoine de Saint-Exupéry",
+    "anio": 1943,
+    "disponible": true
+  },
+  {
+    "id": 3,
+    "titulo": "El Gran Gatsby",
+    "autor": "F. Scott Fitzgerald",
+    "anio": 1925,
+    "disponible": true
+  }
+]

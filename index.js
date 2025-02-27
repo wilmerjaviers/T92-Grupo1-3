@@ -49,6 +49,7 @@ if (fs.existsSync('libros.json')) {
 }
 
 app.post('/libros', (req, res) => {
+    console.log(req.body); 
     const { titulo, autor, anio, disponible } = req.body;
 
     if (!titulo || !autor || !anio || disponible === undefined) {
@@ -66,7 +67,7 @@ app.post('/libros', (req, res) => {
 
     libros.push(nuevoLibro); 
     
-    fs.writeFileSync('libros.json', JSON.stringify(libros, null, 2));
+    saveLibros(libros);
 
     res.status(201).json(nuevoLibro);
 });

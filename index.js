@@ -6,7 +6,9 @@ const PORT = 3000;
 
 app.use(express.json());
 
-let libros = []; libros = [];
+const libros = [];
+
+
 
 if (fs.existsSync('libros.json')) {
     const data = fs.readFileSync('libros.json');
@@ -35,6 +37,7 @@ app.post('/libros', (req, res) => {
 
     res.status(201).json(nuevoLibro);
 });
+
 
 app.listen(PORT, ()=>{
     console.log(`Servidor corriendo en http://localhost:${PORT}`);
